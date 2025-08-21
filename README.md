@@ -1,9 +1,9 @@
-# Debugger One : A Self-Cleaning C Preprocessor
+# c-stripper : A Self-Cleaning C Preprocessor
 
-**Debugger One** is a minimalist comment-stripping preprocessor for C source files.  
+**c-stripper** is a minimalist comment-stripping preprocessor for C source files.  
 It removes both `//` and `/* ... */` comments safely including multi-line block comments that span across buffer boundaries and preserves the structure of the original file where appropriate.
 
-This tool is robust enough to process and clean its own source code, making it a self-debugging(stripping) program.
+This tool is robust enough to process and clean its own source code, making it a self-stripping program.
 
 ---
 
@@ -84,7 +84,7 @@ int main() {
 ## Why This Exists
 
 This project began as an exercise in building a compiler pipeline from scratch.  
-Rather than relying on regular expressions or fragile heuristics, it tracks syntax deliberately — much like an actual compiler would — while aiming to preserve programmer intent and logical structure.
+Rather than relying on regular expressions or fragile heuristics, it tracks syntax deliberately much like an actual compiler would — while aiming to preserve programmer intent and logical structure.
 
 It serves as a lightweight preprocessing pass and a stepping stone toward a full lexer/tokenizer.
 
