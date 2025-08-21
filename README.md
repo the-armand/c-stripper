@@ -1,4 +1,4 @@
-# c-stripper : A Self-Cleaning C Preprocessor
+# C-Stripper : A Self-Cleaning C Preprocessor
 
 **c-stripper** is a minimalist comment-stripping preprocessor for C source files.  
 It removes both `//` and `/* ... */` comments safely including multi-line block comments that span across buffer boundaries and preserves the structure of the original file where appropriate.
