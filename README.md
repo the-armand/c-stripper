@@ -84,7 +84,7 @@ int main() {
 ## Why This Exists
 
 This project began as an exercise in building a compiler pipeline from scratch.  
-Rather than relying on regular expressions or fragile heuristics, it tracks syntax deliberately much like an actual compiler would — while aiming to preserve programmer intent and logical structure.
+Rather than relying on regular expressions or fragile heuristics, it tracks syntax deliberately much like an actual compiler would while aiming to preserve programmer intent and logical structure.
 
 It serves as a lightweight preprocessing pass and a stepping stone toward a full lexer/tokenizer.
 
